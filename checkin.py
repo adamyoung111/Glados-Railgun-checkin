@@ -112,7 +112,7 @@ class Config:
     EXCHANGE_PLANS = {
         ExchangePlan.PLAN100.value: 100,
         ExchangePlan.PLAN200.value: 200,
-        ExchangePlan.PLAN500.value: 500,
+        ExchangePlan.PLAN500.value: 10000,
     }
 
     def __init__(self):
